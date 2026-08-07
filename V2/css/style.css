@@ -422,3 +422,38 @@ h2{
     margin-top:15px;
 }
 }
+
+.lightbox {
+
+    animation: fadeIn .25s ease;
+
+}
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity:0;
+
+    }
+
+    to {
+
+        opacity:1;
+
+    }
+
+}
+
+.gallery-thumb img {
+
+    transition:
+        transform .35s ease;
+
+}
+
+.gallery-card:hover img {
+
+    transform:scale(1.06);
+
+}
