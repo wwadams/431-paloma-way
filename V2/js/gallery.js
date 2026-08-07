@@ -48,7 +48,7 @@ function renderGallery() {
                 p => p.category === currentCategory
             );
 
-    photos.forEach(photo => {
+    photos.forEach((photo, index) => {
 
         const card = document.createElement("div");
         card.className = "gallery-card";
@@ -64,6 +64,10 @@ function renderGallery() {
                 ${photo.title}
             </div>
         `;
+
+        card.addEventListener("click", () => {
+            openLightbox(photos, index);
+        });
 
         grid.appendChild(card);
 
