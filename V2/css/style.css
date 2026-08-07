@@ -309,5 +309,116 @@ h2{
     text-align:center;
 
 }
+/* ===========================
+   Gallery
+=========================== */
 
+.gallery-tabs{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin:30px 0;
+}
+
+.gallery-tabs button{
+    padding:10px 18px;
+    border:none;
+    border-radius:25px;
+    background:#e9eef4;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.25s;
+}
+
+.gallery-tabs button:hover,
+.gallery-tabs button.active{
+    background:var(--accent);
+    color:#fff;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:18px;
+}
+
+.gallery-card{
+    cursor:pointer;
+}
+
+.gallery-thumb{
+    width:100%;
+    aspect-ratio:4 / 3;
+    border-radius:12px;
+    overflow:hidden;
+    background:#ddd;
+    box-shadow:var(--shadow);
+}
+
+.gallery-thumb img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:transform .3s;
+}
+
+.gallery-card:hover img{
+    transform:scale(1.05);
+}
+
+.gallery-title{
+    margin-top:10px;
+    font-weight:600;
+    text-align:center;
+}
+
+/* ===========================
+   Lightbox
+=========================== */
+
+.lightbox{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.92);
+    z-index:9999;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.lightbox img{
+    max-width:92vw;
+    max-height:82vh;
+    border-radius:10px;
+}
+
+.lightbox button{
+    position:absolute;
+    background:rgba(255,255,255,.2);
+    color:#fff;
+    border:none;
+    padding:16px;
+    cursor:pointer;
+    font-size:2rem;
+}
+
+#closeLightbox{
+    top:20px;
+    right:20px;
+}
+
+#prevPhoto{
+    left:20px;
+}
+
+#nextPhoto{
+    right:20px;
+}
+
+#photoCaption,
+#photoCounter{
+    color:white;
+    margin-top:15px;
+}
 }
