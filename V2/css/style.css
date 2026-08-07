@@ -342,8 +342,11 @@ h2{
     gap:18px;
 }
 
-.gallery-card{
-    cursor:pointer;
+.gallery-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 .gallery-thumb{
