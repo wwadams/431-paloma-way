@@ -1,18 +1,18 @@
 const galleryData = [
     {
         category: "Exterior",
-        file: "images/exterior/front.jpg",
+        file: "images/exterior/6079.jpg",
         title: "Front of Home",
         featured: true
     },
     {
         category: "Exterior",
-        file: "images/exterior/front-angle.jpg",
+        file: "images/exterior/6081.jpg",
         title: "Front Corner View"
     },
     {
         category: "Exterior",
-        file: "images/exterior/backyard.jpg",
+        file: "images/exterior/6097.jpg",
         title: "Back Yard"
     },
 
