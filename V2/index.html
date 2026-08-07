@@ -89,20 +89,45 @@
 
 </section>
 
-<section id="photos">
+<section id="photos" class="gallery-section">
 
     <div class="content">
 
         <h2>Photo Gallery</h2>
 
-        <p>
-            Coming next. This will become a professional gallery with
-            approximately 50 photos.
+        <p class="gallery-intro">
+            Browse photos by room or view the complete gallery.
         </p>
+
+        <div id="galleryTabs" class="gallery-tabs">
+            <!-- Created automatically -->
+        </div>
+
+        <div id="galleryGrid" class="gallery-grid">
+            <!-- Photos appear here -->
+        </div>
 
     </div>
 
 </section>
+
+<!-- Lightbox -->
+
+<div id="lightbox" class="lightbox">
+
+    <button id="closeLightbox">&times;</button>
+
+    <button id="prevPhoto">&#10094;</button>
+
+    <img id="lightboxImage">
+
+    <button id="nextPhoto">&#10095;</button>
+
+    <div id="photoCaption"></div>
+
+    <div id="photoCounter"></div>
+
+</div>
 
 <section id="contact">
 
