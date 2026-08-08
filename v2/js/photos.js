@@ -47,7 +47,7 @@ const galleryData = [
 
     {
         category: "Primary Bedroom",
-        file: "images/bedroom/Owner's_Suite-1.jpg",
+        file: "images/bedrooms/Owner's_Suite-1.jpg",
         width: 360,
         height: 480,
         title: "Owner's Suite"
