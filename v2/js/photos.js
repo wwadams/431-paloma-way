@@ -319,13 +319,6 @@ const galleryData = [
     },
     {
         category: "Exterior",
-        file: "images/exterior/Back_of_house-2.jpg",
-        width: 360,
-        height: 480,
-        title: "Back Of House 2"
-    },
-    {
-        category: "Exterior",
         file: "images/exterior/Front-1.jpg",
         width: 480,
         height: 360,
@@ -347,7 +340,7 @@ const galleryData = [
     },
     {
         category: "Exterior",
-        file: "images/exterior/back_of_house-1.jpg",
+        file: "images/exterior/Back_of_house-1.jpg",
         width: 360,
         height: 480,
         title: "Back Of House 1"
